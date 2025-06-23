@@ -6,7 +6,9 @@ Ultrasound Nerve Segmentation Using Deep Learning is a deep learning-based proje
 To address these challenges, this project introduces an end-to-end automated pipeline powered by deep learning models, aimed at providing accurate, real-time, and consistent nerve segmentation. The solution reduces the reliance on highly experienced radiologists, improves diagnosis accuracy, and supports applications like regional anesthesia planning, nerve damage assessment, and surgical navigation.
 
 
- Deep Learning Models Used
+---
+
+Deep Learning Models Used
 
 1. U-Net Architecture
 
@@ -21,6 +23,7 @@ Preserves spatial resolution using skip connections from encoder to decoder.
 Performs well on small medical datasets due to its efficient use of features.
 
 Specially designed for biomedical image segmentation tasks.
+
 
 
 
@@ -40,6 +43,7 @@ Accelerates convergence and improves model accuracy.
 
 
 
+
 3. Attention U-Net (Model Variant)
 
 Purpose: Improves focus on relevant anatomical regions by suppressing background noise.
@@ -53,6 +57,7 @@ Allows the model to dynamically focus on the nerve region while ignoring irrelev
 Reduces false positives in complex and noisy ultrasound environments.
 
 Especially effective for fine-grained segmentation in images with ambiguous features.
+
 
 
 
